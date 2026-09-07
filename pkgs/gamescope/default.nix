@@ -15,5 +15,4 @@ gamescope'.overrideAttrs (old: {
           fetchSubmodules = true;
           hash = "sha256-6B9Vbr21EHDOVCx27TZk3ruJPqoovEQ1JYtd8F6Siv4=";
         };
-      });
 })

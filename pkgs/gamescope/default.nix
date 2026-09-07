@@ -8,7 +8,7 @@
 
 gamescope'.overrideAttrs (old: {
         enableWsi = true;
-        src = prev.fetchFromGitHub {
+        src = fetchFromGitHub {
           owner = "OpenGamingCollective";
           repo = "gamescope";
           tag = "3.16.19";

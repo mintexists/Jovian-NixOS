@@ -112,7 +112,7 @@ let
   };
 in stdenv.mkDerivation(finalAttrs: {
   pname = "gamescope-session";
-  version = "3.16.25-3";
+  version = "3.16.26-2";
 
   src = fetchFromGitHub {
     owner = "Jovian-Experiments";
